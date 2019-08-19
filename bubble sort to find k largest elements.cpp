@@ -17,7 +17,7 @@ void  selectionsort(int a[],int n)
     for (i=0;i<k;i++)
     {
 
-        for (j=0;j<n;j++)
+        for (j=0;j<n-i;j++)
         {
 
             if(a[j+1]<a[j])
